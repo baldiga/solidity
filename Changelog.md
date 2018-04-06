@@ -17,6 +17,7 @@ Features:
  * General: Introduce new constructor syntax using the ``constructor`` keyword as experimental 0.5.0 feature.
  * Inheritance: Error when using empty parentheses for base class constructors that require arguments as experimental 0.5.0 feature.
  * Inheritance: Error when using no parentheses in modifier-style constructor calls as experimental 0.5.0 feature.
+ * SMTChecker: Integration with CVC4 SMT solver
 
 Bugfixes:
  * Code Generator: Allow ``block.blockhash`` without being called.
